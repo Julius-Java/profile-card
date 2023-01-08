@@ -113,16 +113,19 @@ hr {
 
 @media (max-width: 1440px) {
     .bg {
-        max-width: 60%;
+        max-width: 40%;
     }
 
     .bg-top {
-        left: 10px;
+        top: -20%;
+        left: 60px;
+        transform: rotate(80deg);
     }
 
     .bg-bottom {
         max-width: 100%;
         right: 20px;
+        bottom: -120%;
     }
 }
 
