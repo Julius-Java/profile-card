@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image:  url("../images/bg-pattern-bottom.svg");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 40rem; */
+    background-color: hsl(185, 75%, 39%);
+    overflow: hidden;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+h5, h6 {
+    font-size: 1.125rem;
+}
+
+.card {
+    margin: 12% auto;
+    max-width: 350px;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    border: none;
+}
+
+.bg {
+    position: absolute;
+    z-index: -1;
+    max-width: 180%;
+}
+
+.top img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.bg-top {
+    top: -65%;
+    left: 100px;
+    transform: rotate(50deg);
+}
+
+.bg-bottom {
+    right: 100px;
+    bottom: -60%;
+    transform: rotate(-20deg);
+}
+
+.mid img {
+    border: 10px solid white;
+    border-radius: 100%;
+    position: absolute;
+    top: 22%;
+    left: 32%;
+}
+
+.userInfo, .userLocation {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mid {
+    margin-top: 80px;
+}
+
+.stats {
+    text-align: center;
+}
+
+.userInfo * {
+    display: inline-block;
+    margin-bottom: 0.6rem;
+}
+
+h5, h6 {
+    color: hsl(229, 23%, 23%);
+}
+
+p {
+    color: hsl(227, 10%, 46%);
+}
+
+hr {
+    color: hsl(0, 0%, 59%);
+    margin: 1.3rem 0;
+}
+
+.userInfo h5 {
+    font-weight: bolder;
+}
+
+.userInfo p {
+    font-size: 1.3rem;
+}
+
+.bottom {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.7rem;
+}
+
+.bottom h6 {
+    font-weight: bolder;
+}
+
+.bottom p {
+    letter-spacing: 2px;
+    font-size: 0.7rem;
+}
+
+@media (max-width: 1440px) {
+    .bg {
+        max-width: 60%;
+    }
+
+    .bg-top {
+        left: 20px;
+    }
+
+    .bg-bottom {
+        max-width: 100%;
+        right: 20px;
+    }
+}
+
+
+
+
+
