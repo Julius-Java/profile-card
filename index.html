@@ -2,50 +2,65 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Boostrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+
+  <!-- Google Kumbh Sans Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Profile card component</title>
 </head>
 <body>
+  <img src="./images/bg-pattern-top.svg" class="bg bg-top">
+
   <main>
     <div class="card">
       <section class="top">
-        <picture>
-          <img src="./images/bg-pattern-card.svg">
-        </picture>
+        <img src="./images/bg-pattern-card.svg">
       </section>
 
       <section class="mid">
         <img src="./images/image-victor.jpg" alt="profile-pic">
 
         <div class="userInfo">
-          <h5>Victor Crest</h5>
+          <h5 class="me-1">Victor Crest</h5>
           <p>26</p>
         </div>
 
         <p class="userLocation">London</p>
       </section>
 
-      <section class="bottom">
-        <div class="stats">
+      <hr>
+
+      <section class="bottom row">
+        <div class="stats col-4">
           <h6>80k</h6>
           <p>Followers</p>
         </div>
 
-        <div class="stats">
+        <div class="stats col-4">
           <h6>803k</h6>
           <p>Likes</p>
         </div>
 
-        <div class="stats">
+        <div class="stats col-4">
           <h6>1.4k</h6>
           <p>Photos</p>
         </div>
       </section>
     </div>
   </main>
+
+
+  <img src="./images/bg-pattern-bottom.svg" class="bg bg-bottom">
   <!-- Victor Crest
   26
   London
