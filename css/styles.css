@@ -83,6 +83,7 @@ p {
 }
 
 hr {
+    border: 1px thin hsl(0, 0%, 59%);
     color: hsl(0, 0%, 59%);
     margin: 1.3rem 0;
 }
@@ -116,12 +117,42 @@ hr {
     }
 
     .bg-top {
-        left: 20px;
+        left: 10px;
     }
 
     .bg-bottom {
         max-width: 100%;
         right: 20px;
+    }
+}
+
+@media (max-width: 350px) {
+    body {
+        padding: 0 20px 0;
+    }
+    .card {
+        margin: 35% auto 0;
+        max-width: 300px;
+    }
+
+    .mid img {
+        left: 30%;
+        top: 19%;
+    }
+
+    .bg {
+        max-width: 90%;
+    }
+    
+    .bg-top {
+        top: -5%;
+        left: -150px;
+    }
+
+    .bg-bottom {
+        bottom: 20%;
+        right: -15%;
+        transform: rotate(50deg);
     }
 }
 
