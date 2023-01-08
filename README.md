@@ -26,7 +26,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ![](./screenshot/Desktop-screenshot.png)
 - Desktop View
 
-![](./screenshot/Screenshot%202023-01-08%20at%2014-30-24%20Frontend%20Mentor%20Profile%20card%20component.png)
+![](./screenshot/Mobile-screenshot.png)
 - Mobile View
 
 
