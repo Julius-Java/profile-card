@@ -1,11 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    /* background-image:  url("../images/bg-pattern-bottom.svg");
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 40rem; */
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
     background-color: hsl(185, 75%, 39%);
     overflow: hidden;
     font-family: 'Kumbh Sans', sans-serif;
@@ -24,28 +22,10 @@ h5, h6 {
     border: none;
 }
 
-.bg {
-    position: absolute;
-    z-index: -1;
-    max-width: 180%;
-}
-
 .top img {
     width: 100%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-}
-
-.bg-top {
-    top: -65%;
-    left: 100px;
-    transform: rotate(50deg);
-}
-
-.bg-bottom {
-    right: 100px;
-    bottom: -60%;
-    transform: rotate(-20deg);
 }
 
 .mid img {
@@ -111,27 +91,11 @@ hr {
     font-size: 0.7rem;
 }
 
-@media (max-width: 1440px) {
-    .bg {
-        max-width: 40%;
-    }
-
-    .bg-top {
-        top: -20%;
-        left: 60px;
-        transform: rotate(80deg);
-    }
-
-    .bg-bottom {
-        max-width: 100%;
-        right: 20px;
-        bottom: -120%;
-    }
-}
-
 @media (max-width: 350px) {
     body {
         padding: 0 20px 0;
+        background-position: right 40vw bottom 27vh, left 40vw top 40vh;
+        background-size: 45vh;
     }
     .card {
         margin: 35% auto 0;
@@ -141,15 +105,6 @@ hr {
     .mid img {
         left: 30%;
         top: 19%;
-    }
-
-    .bg {
-        max-width: 90%;
-    }
-    
-    .bg-top {
-        top: -5%;
-        left: -150px;
     }
 
     .bg-bottom {
