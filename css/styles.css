@@ -91,14 +91,20 @@ hr {
     font-size: 0.7rem;
 }
 
-@media (max-width: 350px) {
+
+@media only screen and (max-width: 950px) {
     body {
-        padding: 0 20px 0;
-        background-position: right 40vw bottom 27vh, left 40vw top 40vh;
-        background-size: 45vh;
+        background-position: right 50vw bottom 27vh, left 45vw top 35vh;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+        background-position: right 65vw bottom 30vh, left 50vw top 50vh;
+        background-size: 60vh;
     }
     .card {
-        margin: 35% auto 0;
+        margin: 40% 10% 0;
         max-width: 300px;
     }
 
@@ -106,11 +112,16 @@ hr {
         left: 30%;
         top: 19%;
     }
+}
 
-    .bg-bottom {
-        bottom: 20%;
-        right: -15%;
-        transform: rotate(50deg);
+@media only screen and (max-width: 450px) {
+    body {
+        background-position: right 60vw bottom 27vh, left 60vw top 55vh;
+        background-size: 70vh;
+    }
+
+    .card {
+         margin-top: 30%;
     }
 }
 
