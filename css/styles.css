@@ -100,7 +100,7 @@ hr {
 
 @media only screen and (max-width: 400px) {
     body {
-        background-position: right 65vw bottom 30vh, left 50vw top 50vh;
+        background-position: right 65vw bottom 30vh, left 47vw top 50vh;
         background-size: 60vh;
     }
     .card {
